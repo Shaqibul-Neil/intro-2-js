@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+
+	<!--meta tags-->
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JS Practice 1</title>
+
+	<!--css links-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+</head>
+
+<body>
+
+	<div class="container pt-5">
+
+		<!-- show text -->
+	 	<h2>Click the button to show the text</h2>
+	 	<button onclick="showText()" class="btn btn-primary">Show Text</button>
+	 	<p id="st"></p>
+
+	 	<br><br>
+
+	 	<!-- show date -->
+	 	<button onclick="showDate()" class="btn btn-warning">Click me to Display Date</button>
+	 	<p id="da1"></p>
+
+		<br><br>
+		
+		<!-- bulb on off -->
+		<button onclick="bulbOn()" class="btn btn-success">Turn on the light</button>
+		<img id="myimage" src="off.jpg" alt="" style="width: 100px;">
+		<button onclick="bulbOff()" class="btn btn-danger">Turn off the light</button>
+
+		<br><br>
+
+		<!-- font size -->
+		<p id="fsi">To See Larger fontsize click the button below</p>
+		<button onclick="fontSizeIncrease()" class="btn btn-info">Click Me</button>
+
+		<br><br>
+
+		<!-- text hide -->
+		<p id="th">To Hide this line click on the below button</p>
+		<button onclick="textHide()" class="btn btn-danger">Click me</button>
+
+		<br><br>
+
+		<!-- show text -->
+		<p id="stext" style="display: none;">HI, How are you?</p>
+		<button onclick="invisibleTextShow()" class="btn btn-info">Click me to see the invisible text</button>
+
+ 	</div>
+
+
+
+
+<!--js links-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
